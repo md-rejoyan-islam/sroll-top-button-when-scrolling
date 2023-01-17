@@ -28,8 +28,9 @@ window.onscroll = () => {
   }
 };
 
-// bottom to stop by click button
 
+
+// bottom to stop by click button
 topScroll.addEventListener("click", function () {
   window.scrollTo({
     top: 0,
