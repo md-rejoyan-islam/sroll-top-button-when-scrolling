@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Hide navbar on scroll</title>
+    <title>Scroll top button</title>
     <style>
-      #header{
+      #header {
         transition: 3s ease-in-out;
       }
     </style>
   </head>
-  <body >
+  <body>
     <header class="py-5 px-4 md:px-12 bg-[#15144d]" id="header">
       <nav class="flex justify-between text-white items-center">
         <div>
@@ -135,14 +135,26 @@
       </section>
     </main>
     <!-- footer -->
-    <footer class="overflow-hidden" >
+    <footer class="overflow-hidden">
       <p class="py-6 bg-[#0b2132] text-center text-white md:text-xl text-lg">
         Copyright © 2023 by DesignX
       </p>
     </footer>
     <!-- scroll top button -->
-    <button class="fixed fill-white bottom-6 right-6 bg-[#064baa] p-1 font-bold rounded-full animate-bounce hidden overflow-hidden" id="topScroll">
-      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" ><path d="m12 6.879-7.061 7.06 2.122 2.122L12 11.121l4.939 4.94 2.122-2.122z"></path></svg>
+    <button
+      class="fixed fill-white bottom-6 right-6 bg-[#064baa] p-1 font-bold rounded-full animate-bounce hidden overflow-hidden"
+      id="topScroll"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="36"
+        height="36"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="m12 6.879-7.061 7.06 2.122 2.122L12 11.121l4.939 4.94 2.122-2.122z"
+        ></path>
+      </svg>
     </button>
     <div id="element" class="h-2 w-2"></div>
     <script src="./assets//js/app.js"></script>
