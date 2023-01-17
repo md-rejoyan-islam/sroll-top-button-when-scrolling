@@ -1,4 +1,4 @@
-## Hide Navbar on Scroll With Responsive Navbar
+## Scroll Top Button when scrolling With Responsive Navbar
 
 ---
 
