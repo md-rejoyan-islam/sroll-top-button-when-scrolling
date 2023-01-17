@@ -19,11 +19,11 @@ let beforeScroll = 0;
 window.onscroll = () => {
   let newScroll = window.scrollY;
   if (newScroll < beforeScroll) {
- topScroll.classList.add("hidden");
+    topScroll.classList.add("hidden");
     beforeScroll = newScroll;
   } else {
     topScroll.classList.remove("hidden");
-   
+
     beforeScroll = newScroll;
   }
 };
@@ -35,8 +35,8 @@ topScroll.addEventListener("click", function () {
     top: 0,
     left: 0,
     behavior: "smooth",
-    duration:"10s"
+    duration: "10s",
   });
-  window.scrollY=0
+  window.scrollY = 0;
   console.log(window.scrollY);
 });
