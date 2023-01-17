@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Hide navbar on scroll</title>
+    <style>
+      #header{
+        transition: 3s ease-in-out;
+      }
+    </style>
+  </head>
+  <body >
+    <header class="py-5 px-4 md:px-12 bg-[#15144d]" id="header">
+      <nav class="flex justify-between text-white items-center">
+        <div>
+          <h1 class="md:text-4xl text-xl font-black">DesignX</h1>
+        </div>
+        <div>
+          <ul
+            class="md:text-lg lg:text-xl md:flex absolute md:relative block top-[72px] md:top-0 w-[30%] right-0 md:px-0 md:space-y-0 bg-[#15144d] text-center hidden"
+            id="menu"
+          >
+            <li
+              class="hover:text-violet-400 font-semibold border-y md:border-none border-[#1b1a6f] py-2 px-4 md:rounded-md hover:bg-[#1b1a6f]"
+            >
+              <a href="#home">Home</a>
+            </li>
+            <li
+              class="hover:text-violet-400 font-semibold border-y md:border-none border-[#1b1a6f] py-2 px-4 md:rounded-md hover:bg-[#1b1a6f]"
+            >
+              <a href="#about">About</a>
+            </li>
+            <li
+              class="hover:text-violet-400 font-semibold border-y md:border-none border-[#1b1a6f] py-2 px-4 md:rounded-md hover:bg-[#1b1a6f]"
+            >
+              <a href="#services">Services</a>
+            </li>
+            <li
+              class="hover:text-violet-400 font-semibold border-y md:border-none border-[#1b1a6f] py-2 px-4 md:rounded-md hover:bg-[#1b1a6f]"
+            >
+              <a href="">Contact</a>
+            </li>
+            <li
+              class="hover:text-violet-400 font-semibold border-y md:border-none border-[#1b1a6f] py-2 px-4 md:rounded-md hover:bg-[#1b1a6f]"
+            >
+              <a href="">Feedback</a>
+            </li>
+          </ul>
+          <button
+            class="fill-white rounded-full h-8 bg-[#1b1a6f] flex items-center mx-auto justify-center w-8 md:hidden"
+            id="menuBtn"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main class="pb-5 overflow-hidden">
+      <section id="home">
+        <img
+          src="./assets/images/photo-1511192951894-5d7de7f594b3.jpg"
+          alt=""
+          class="w-full"
+        />
+      </section>
+
+      <!-- about section -->
+      <section class="my-5" id="about">
+        <div class="md:px-8 px-4 text-justify">
+          <h1 class="text-4xl font-bold text-center my-2">About Section</h1>
+          <p class="text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
+            aliquid consequatur molestias! Minima, vero sit alias suscipit ipsa
+            asperiores dolorum recusandae adipisci, dolores quibusdam similique
+            soluta saepe eius perferendis commodi. Natus optio molestiae porro
+            dicta veniam delectus illo blanditiis obcaecati sed repudiandae.
+            Nemo excepturi vero ipsam quibusdam facere. Pariatur possimus
+            molestiae eligendi nostrum est, unde sunt neque doloribus nam! Quod
+            aliquam perferendis ea vel voluptates ipsam laboriosam error
+            cupiditate reprehenderit explicabo officiis hic quisquam, ipsum est,
+            quidem debitis suscipit? Itaque, harum odit enim porro, veritatis
+            incidunt consequatur corrupti delectus quas doloremque praesentium
+            sunt eos labore totam tenetur, in nesciunt voluptatem officia odio
+            maxime eum nisi quae iure dolorem. Quidem sit unde qui, veritatis
+            ipsam minima perspiciatis debitis pariatur, ea, obcaecati fugit
+            inventore velit asperiores amet mollitia nesciunt vero dolores nam
+            aperiam dolorem? Hic, suscipit animi, molestias nam natus quam
+            provident nisi excepturi, aperiam veritatis officiis delectus
+            blanditiis maxime velit fuga?
+          </p>
+        </div>
+      </section>
+
+      <!-- services section -->
+      <section class="my-2" id="services">
+        <img
+          src="./assets/images/mens-leather-jacket-e1651243886922.jpg"
+          alt=""
+          class="w-full"
+        />
+        <div class="md:px-8 px-4 text-justify">
+          <h1 class="text-3xl font-bold text-center my-2">Services Section</h1>
+          <p class="text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            consequuntur fugit minus ex necessitatibus quidem voluptatem
+            veritatis nulla inventore, libero mollitia, earum molestiae ab
+            laboriosam ipsum incidunt animi voluptatibus dolor est dolorum cum.
+            Repellat accusamus voluptatem qui eligendi placeat. Perferendis
+            neque, maiores iusto corrupti consectetur porro, ex illum vel
+            ratione ducimus reprehenderit eaque fuga consequuntur aliquid
+            exercitationem aut. Recusandae necessitatibus harum explicabo
+            corrupti fugiat repudiandae! Saepe illo earum eveniet maiores
+            delectus nemo doloremque deserunt facilis rem. Natus soluta
+            perferendis velit? Aut sequi unde minus at quisquam, tempora
+            laboriosam nobis dolores consequatur voluptates ducimus quaerat enim
+            dolor. Eius aliquam neque non voluptatum. Iste in laboriosam
+            architecto autem, ducimus eum adipisci corporis saepe non, tempore
+            asperiores tempora aperiam quos commodi necessitatibus quam
+            laudantium. Magnam, dolor hic nesciunt nulla, aperiam maxime sit
+            aliquam nam quaerat quis accusantium culpa provident minima fugit,
+            id vero tenetur error incidunt. Corrupti nulla ipsum eaque, officia
+            pariatur minima.
+          </p>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="overflow-hidden" >
+      <p class="py-6 bg-[#0b2132] text-center text-white md:text-xl text-lg">
+        Copyright © 2023 by DesignX
+      </p>
+    </footer>
+    <!-- scroll top button -->
+    <button class="fixed fill-white bottom-6 right-6 bg-[#064baa] p-1 font-bold rounded-full animate-bounce hidden overflow-hidden" id="topScroll">
+      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" ><path d="m12 6.879-7.061 7.06 2.122 2.122L12 11.121l4.939 4.94 2.122-2.122z"></path></svg>
+    </button>
+    <div id="element" class="h-2 w-2"></div>
+    <script src="./assets//js/app.js"></script>
+  </body>
+</html>
